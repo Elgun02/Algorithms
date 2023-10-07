@@ -1,7 +1,6 @@
 package Homework;
 
 public class RecursiveCharCount {
-
     public static int searchCharRecursively(String str, char item) {
         if (str == null || str.isEmpty()) {
             return 0;
